@@ -50,7 +50,7 @@ export default function Navbar() {
             </div>
             <div className="font-bold text-lg leading-tight text-slate-900 dark:text-white flex gap-2 items-center">
               QC
-              <span className="text-[10px] uppercase tracking-widest text-blue-600 dark:text-emerald-400 font-sans mt-0.5 transition-colors">Limited Systems Kenya</span>
+              <span className="text-[10px] uppercase tracking-widest text-blue-600 dark:text-emerald-400 font-sans mt-0.5 transition-colors"> Systems Limited Kenya</span>
             </div>
           </a>
 

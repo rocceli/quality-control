@@ -32,7 +32,7 @@ export default function Location() {
               allowFullScreen 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Quality Control Limited Systems Kenya Location"
+              title="Quality Control Systems Limited Kenya Location"
               className="absolute inset-0 grayscale-[20%] dark:grayscale-[50%] dark:invert-[90%] dark:hue-rotate-180 contrast-100 transition-all duration-300"
             ></iframe>
             
@@ -43,7 +43,7 @@ export default function Location() {
                   <MapPin className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[12px] text-slate-900 dark:text-emerald-50 mb-1 transition-colors">Quality Control Limited Systems</h4>
+                  <h4 className="font-bold text-[12px] text-slate-900 dark:text-emerald-50 mb-1 transition-colors">Quality Control Systems Limited</h4>
                   <p className="text-[10px] text-slate-600 dark:text-emerald-100/70 transition-colors">
                     Gataka Road, Off Magadi Road<br/>
                     Nairobi, Kenya
