@@ -25,7 +25,7 @@ export default function Location() {
           <div className="w-full h-[400px] relative">
             {/* Overlay to catch pointer events if desired, but we let users interact with map */}
             <iframe 
-              src=".33538099461!2d36.57683372497557!3d-1.3766400499268332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f058dc4b2a52f%3A0x70513b72475eedd6!2sQuality%20Control%20Systems%20Limited!5e0!3m2!1sen!2ske!4v1777884200643!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.33538099461!2d36.57683372497557!3d-1.3766400499268332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f058dc4b2a52f%3A0x70513b72475eedd6!2sQuality%20Control%20Systems%20Limited!5e0!3m2!1sen!2ske!4v1777884520018!5m2!1sen!2ske"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
