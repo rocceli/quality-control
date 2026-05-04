@@ -216,29 +216,6 @@ const Graphics = {
         <div className="w-20 h-6 bg-slate-800 dark:bg-slate-800 rounded-b text-[8px] font-mono text-white flex items-center justify-center transition-colors">50.0 kN</div>
       </div>
     )
-  },
-  NDT: {
-    'Ultrasound': () => (
-      <div className="w-20 h-16 bg-slate-900 dark:bg-black rounded-lg border-2 border-slate-600 dark:border-slate-700 p-2 flex flex-col shadow-inner transition-colors">
-        <div className="w-full h-full border border-blue-500/30 bg-blue-900/20 rounded relative overflow-hidden flex items-center">
-           <svg viewBox="0 0 100 50" className="w-full h-full stroke-blue-400 dark:stroke-blue-500 fill-none" preserveAspectRatio="none">
-              <motion.path 
-                animate={{ d: ["M0,25 Q10,25 20,25 T40,25 T60,25 T80,25 T100,25", "M0,25 Q10,10 20,25 T40,5 T60,25 T80,45 T100,25"] }} 
-                transition={{ duration: 0.5, repeat: Infinity, repeatType: 'reverse' }} 
-                strokeWidth="2" 
-              />
-           </svg>
-        </div>
-      </div>
-    ),
-    'X-Ray': () => (
-      <div className="w-16 h-20 bg-slate-800 dark:bg-slate-900 rounded border border-slate-600 dark:border-white/10 relative overflow-hidden flex items-center p-2 transition-colors">
-         <motion.div animate={{ top: ['-20%', '120%'] }} transition={{ duration: 2, repeat: Infinity, ease: 'linear' }} className="absolute left-0 w-full h-1 bg-blue-400/80 dark:bg-cyan-400/80 shadow-[0_0_8px_rgba(56,189,248,0.8)] z-20"></motion.div>
-         <div className="w-full h-full bg-slate-400 dark:bg-slate-600 rounded flex items-center justify-center relative z-10 transition-colors">
-            <div className="w-1 h-8 bg-black/40 rotate-12 blur-[0.5px]"></div>
-         </div>
-      </div>
-    )
   }
 };
 
@@ -285,13 +262,6 @@ const labsData = [
     icon: ShieldAlert,
     subs: ['Force Testing'],
     component: Graphics.Force
-  },
-  {
-    id: 'ndt',
-    title: 'NDT Lab',
-    icon: Zap,
-    subs: ['Ultrasound', 'X-Ray'],
-    component: Graphics.NDT
   }
 ];
 

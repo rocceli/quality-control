@@ -31,7 +31,9 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'Services', href: '#services' },
     { name: 'Calibration Labs', href: '#calibration-labs' },
+    { name: 'Non Destructive Testing', href: '#ndt-labs' }
     { name: 'Certifications', href: '#certifications' },
+    { name: 'Blog', href : '#blog' },
     { name: 'Contact', href: '#contact' },
   ];
 
