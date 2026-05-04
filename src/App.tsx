@@ -15,6 +15,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
+import NDTLabs from './components/NDTlabs';
+import Blog from './components/Blog';
 
 export default function App() {
   return (
@@ -24,8 +26,10 @@ export default function App() {
         <Hero />
         <TrustStrip />
         <CalibrationLabs />
+        <NDTLabs />
         <Services />
         <Certifications />
+        <Blog />
         <Location />
         <Contact />
       </main>

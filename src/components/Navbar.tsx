@@ -46,10 +46,14 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <div className="p-2 bg-blue-600/10 dark:bg-emerald-600/20 rounded-lg transition-colors">
-              <ShieldCheck className="w-8 h-8 text-blue-600 dark:text-emerald-500" />
+              <img 
+                src="/logo.png" 
+                alt="Quality Control Systems Limited Kenya" 
+                className="w-8 h-8 object-contain"
+              />
             </div>
             <div className="font-bold text-lg leading-tight text-slate-900 dark:text-white flex gap-2 items-center">
-              QC
+              Quality Control
               <span className="text-[10px] uppercase tracking-widest text-blue-600 dark:text-emerald-400 font-sans mt-0.5 transition-colors"> Systems Limited Kenya</span>
             </div>
           </a>
