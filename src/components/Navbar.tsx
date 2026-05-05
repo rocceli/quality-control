@@ -27,6 +27,16 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleNavClick = (href: string) => {
+    setMobileMenuOpen(false);
+    setTimeout(() => {
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 300);
+  };
+
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'Services', href: '#services' },
@@ -107,14 +117,13 @@ export default function Navbar() {
           >
             <div className="px-4 py-6 flex flex-col gap-4 border-t border-slate-200 dark:border-slate-800 mt-3">
               {navLinks.map((link) => (
-                <a 
-                  key={link.name} 
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-[12px] font-bold text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-emerald-400 transition-colors block py-2"
+                <button
+                  key={link.name}
+                  onClick={() => handleNavClick(link.href)}
+                  className="text-[12px] font-bold text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-emerald-400 transition-colors block py-2 text-left w-full"
                 >
                   {link.name}
-                </a>
+                </button>
               ))}
               <div className="py-2 border-t border-slate-200 dark:border-slate-800 mt-2 pt-4">
                  <button 
