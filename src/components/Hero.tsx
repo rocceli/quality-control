@@ -4,15 +4,15 @@ import { motion, AnimatePresence } from 'motion/react';
 
 const bannerImages = [
   {
-    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
+    url: "/image.png",
     alt: "Precision calibration laboratory with engineers"
   },
   {
-    url: "https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&q=80&w=2000",
+    url: "/img.png",
     alt: "Industrial quality control testing gauge"
   },
   {
-    url: "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=2000",
+    url: "/img0.png",
     alt: "High-tech dimensional measurement engineering"
   }
 ];
