@@ -20,7 +20,7 @@ const details = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@qcsl.co.ke',
+    value: 'info@qualitycsl.com',
     sub: 'We respond within 24hrs',
     accent: 'emerald',
   },
